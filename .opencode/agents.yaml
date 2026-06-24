@@ -1,0 +1,35 @@
+agents:
+  qa-lead:
+    role: QA Automation Lead
+    responsibilities:
+      - Framework architecture
+      - Test strategy
+      - Module expansion plan
+
+  solution-architect:
+    role: Framework Architect
+    responsibilities:
+      - Page Object Model
+      - Base classes
+      - Scalability design
+
+  selenium-expert:
+    role: Selenium Java Engineer
+    responsibilities:
+      - WebDriver management
+      - Locator strategies
+      - Synchronization
+
+  test-architect:
+    role: TestNG Specialist
+    responsibilities:
+      - Test design
+      - Data providers
+      - Reporting
+
+  java-engineer:
+    role: Java Backend Engineer
+    responsibilities:
+      - Utilities
+      - Configuration
+      - Helpers

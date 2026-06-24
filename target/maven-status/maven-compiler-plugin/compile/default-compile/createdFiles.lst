@@ -1,0 +1,5 @@
+com\wms\pages\login\LoginPage.class
+com\wms\utils\WebDriverFactory.class
+com\wms\utils\ConfigReader.class
+com\wms\utils\ScreenshotUtil.class
+com\wms\base\BasePage.class

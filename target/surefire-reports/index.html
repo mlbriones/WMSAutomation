@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WMS_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">WMS Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WMS_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\mlbriones\Documents\WMSAutomation\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WMS_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WMS_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WMS_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WMS_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WMS_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WMS_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WMS_Automation_Suite" class="hide-methods failed suite-WMS_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-WMS_Automation_Suite -->
+                      <a href="#" panel-name="suite-WMS_Automation_Suite" class="show-methods failed suite-WMS_Automation_Suite"> (show)</a> <!-- show-methods failed suite-WMS_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-WMS_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testSuccessfulLogin">testSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testSuccessfulLoginRedirect">testSuccessfulLoginRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WMS_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WMS_Automation_Suite" class="hide-methods passed suite-WMS_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-WMS_Automation_Suite -->
+                      <a href="#" panel-name="suite-WMS_Automation_Suite" class="show-methods passed suite-WMS_Automation_Suite"> (show)</a> <!-- show-methods passed suite-WMS_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-WMS_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(ValidCo, validUser, , Password cannot be blank.)">testEmptyFieldsValidation(ValidCo, validUser, , Password cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(, , , Account Name cannot be blank.)">testEmptyFieldsValidation(, , , Account Name cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(, , validPass, Account Name cannot be blank.)">testEmptyFieldsValidation(, , validPass, Account Name cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(BadCo, badUser, badPass, null)">testEmptyFieldsValidation(BadCo, badUser, badPass, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(ValidCo, , , Username cannot be blank.)">testEmptyFieldsValidation(ValidCo, , , Username cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(ValidCo, , validPass, Username cannot be blank.)">testEmptyFieldsValidation(ValidCo, , validPass, Username cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation(, validUser, validPass, Account Name cannot be blank.)">testEmptyFieldsValidation(, validUser, validPass, Account Name cannot be blank.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testInvalidPassword">testInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testInvalidUsername">testInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WMS_Automation_Suite" title="com.wms.tests.login.LoginTest" class="method navigator-link" hash-for-method="testLoginPageLoads">testLoginPageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WMS_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WMS_Automation_Suite" class="panel WMS_Automation_Suite">
+          <div class="suite-WMS_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.wms.tests.login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin">
+                  </a> <!-- testSuccessfulLogin -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: [Should redirect away from login page on success] 
+Expecting value to be true but was false
+	at com.wms.tests.login.LoginTest.testSuccessfulLogin(LoginTest.java:56)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Successful login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLoginRedirect">
+                  </a> <!-- testSuccessfulLoginRedirect -->
+                  <span class="method-name">testSuccessfulLoginRedirect</span>
+                  <div class="stack-trace">java.lang.AssertionError: [Should redirect away from login on success] 
+Expecting value to be true but was false
+	at com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect(LoginTest.java:131)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify successful login redirect URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WMS_Automation_Suite-class-failed -->
+          <div class="suite-WMS_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wms.tests.login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(ValidCo, validUser, , Password cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(ValidCo, validUser, , Password cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(ValidCo,validUser,,Password cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(, , , Account Name cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(, , , Account Name cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(,,,Account Name cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(, , validPass, Account Name cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(, , validPass, Account Name cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(,,validPass,Account Name cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(BadCo, badUser, badPass, null)">
+                  </a> <!-- testEmptyFieldsValidation(BadCo, badUser, badPass, null) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(BadCo,badUser,badPass,null)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(ValidCo, , , Username cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(ValidCo, , , Username cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(ValidCo,,,Username cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(ValidCo, , validPass, Username cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(ValidCo, , validPass, Username cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(ValidCo,,validPass,Username cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFieldsValidation(, validUser, validPass, Account Name cannot be blank.)">
+                  </a> <!-- testEmptyFieldsValidation(, validUser, validPass, Account Name cannot be blank.) -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <span class="parameters">(,validUser,validPass,Account Name cannot be blank.)</span>
+                  <em>
+(Failed login - empty fields validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidPassword">
+                  </a> <!-- testInvalidPassword -->
+                  <span class="method-name">testInvalidPassword</span>
+                  <em>
+(Failed login - invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidUsername">
+                  </a> <!-- testInvalidUsername -->
+                  <span class="method-name">testInvalidUsername</span>
+                  <em>
+(Failed login - invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageLoads">
+                  </a> <!-- testLoginPageLoads -->
+                  <span class="method-name">testLoginPageLoads</span>
+                  <em>
+(Verify login page loads correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WMS_Automation_Suite-class-passed -->
+        </div> <!-- panel WMS_Automation_Suite -->
+        <div panel-name="test-xml-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mlbriones\Documents\WMSAutomation\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;WMS Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Login Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wms.tests.login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Module Tests --&gt;
+&lt;/suite&gt; &lt;!-- WMS Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WMS Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Module Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WMS Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WMS Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WMS_Automation_Suite');
+function tableData_WMS_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testEmptyFieldsValidation')
+data.setCell(0, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(0, 3, 1940);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testInvalidUsername')
+data.setCell(1, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(1, 3, 1939);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInvalidPassword')
+data.setCell(2, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(2, 3, 1938);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testEmptyFieldsValidation')
+data.setCell(3, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(3, 3, 1257);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSuccessfulLogin')
+data.setCell(4, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(4, 3, 1228);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEmptyFieldsValidation')
+data.setCell(5, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(5, 3, 1101);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSuccessfulLoginRedirect')
+data.setCell(6, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(6, 3, 861);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testEmptyFieldsValidation')
+data.setCell(7, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(7, 3, 703);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testEmptyFieldsValidation')
+data.setCell(8, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(8, 3, 600);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEmptyFieldsValidation')
+data.setCell(9, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(9, 3, 550);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testEmptyFieldsValidation')
+data.setCell(10, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(10, 3, 538);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginPageLoads')
+data.setCell(11, 2, 'com.wms.tests.login.LoginTest')
+data.setCell(11, 3, 114);
+window.suiteTableData['WMS_Automation_Suite']= { tableData: data, tableDiv: 'times-div-WMS_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-WMS_Automation_Suite">
+              </div> <!-- times-div-WMS_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WMS Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wms.tests.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testInvalidPassword())</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testInvalidUsername())</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidUsername</span>
+                <span class="method-start">7390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(, , , Account Name cannot be blank.)</span>
+                <span class="method-start">7390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidPassword</span>
+                <span class="method-start">7391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">9361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testInvalidUsername(), [TestResult name=testInvalidUsernam...)</span>
+                <span class="method-start">9362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testInvalidPassword(), [TestResult name=testInvalidPasswor...)</span>
+                <span class="method-start">9362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">9811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testLoginPageLoads())</span>
+                <span class="method-start">9811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testSuccessfulLogin())</span>
+                <span class="method-start">9954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(ValidCo, , , Username cannot be blank.)</span>
+                <span class="method-start">12672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageLoads</span>
+                <span class="method-start">12676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSuccessfulLogin</span>
+                <span class="method-start">12680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testLoginPageLoads(), [TestResult name=testLoginPageLoads ...)</span>
+                <span class="method-start">12794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect())</span>
+                <span class="method-start">13359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testSuccessfulLogin(), [TestResult name=testSuccessfulLogi...)</span>
+                <span class="method-start">13926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">13933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">14805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSuccessfulLoginRedirect</span>
+                <span class="method-start">15839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect(), [TestResult name=testSucces...)</span>
+                <span class="method-start">16705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(ValidCo, validUser, , Password cannot be blank.)</span>
+                <span class="method-start">16861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">17567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">17806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(, validUser, validPass, Account Name cannot be blank.)</span>
+                <span class="method-start">19524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">20066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">20265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(ValidCo, , validPass, Username cannot be blank.)</span>
+                <span class="method-start">21952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">22505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">22749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(, , validPass, Account Name cannot be blank.)</span>
+                <span class="method-start">24508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">25111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">25340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFieldsValidation(BadCo, badUser, badPass, null)</span>
+                <span class="method-start">26482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">27586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">27896 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,1 @@
+{"uuid":"568e9d55-6580-4106-80d2-f935feaaf5d6","name":"com.wms.base.BaseTest.setUp","children":["df7931a6-329a-4e4f-8d57-a7c893bc9f16"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1782271975677,"stop":1782271977559}],"afters":[],"start":1782271975677,"stop":1782271977559}

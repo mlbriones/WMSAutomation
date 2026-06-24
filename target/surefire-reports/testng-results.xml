@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-18T17:17:34 PST" name="WMS Automation Suite" finished-at="2026-06-18T17:18:02 PST" duration-ms="27741">
+    <groups>
+    </groups>
+    <test started-at="2026-06-18T17:17:34 PST" name="Login Module Tests" finished-at="2026-06-18T17:18:02 PST" duration-ms="27741">
+      <class name="com.wms.tests.login.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:34 PST" name="beforeSuite" finished-at="2026-06-18T17:17:34 PST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:34 PST" name="setUp" finished-at="2026-06-18T17:17:41 PST" duration-ms="6913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:34 PST" name="setUp" finished-at="2026-06-18T17:17:41 PST" duration-ms="6949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:34 PST" name="setUp" finished-at="2026-06-18T17:17:41 PST" duration-ms="6915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testInvalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidUsername()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:41 PST" name="testInvalidUsername" description="Failed login - invalid username" finished-at="2026-06-18T17:17:43 PST" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsername -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:41 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:43 PST" duration-ms="1940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Account Name cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:41 PST" name="testInvalidPassword" description="Failed login - invalid password" finished-at="2026-06-18T17:17:43 PST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:43 PST" name="tearDown" finished-at="2026-06-18T17:17:44 PST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:43 PST" name="tearDown" finished-at="2026-06-18T17:17:44 PST" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testInvalidUsername()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUsername status=SUCCESS method=LoginTest.testInvalidUsername()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:43 PST" name="tearDown" finished-at="2026-06-18T17:17:44 PST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testInvalidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidPassword status=SUCCESS method=LoginTest.testInvalidPassword()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:44 PST" name="setUp" finished-at="2026-06-18T17:17:47 PST" duration-ms="2856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:44 PST" name="setUp" finished-at="2026-06-18T17:17:47 PST" duration-ms="2863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testLoginPageLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:44 PST" name="setUp" finished-at="2026-06-18T17:17:47 PST" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testSuccessfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:47 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:48 PST" duration-ms="1257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidCo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method signature="testLoginPageLoads()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:47 PST" name="testLoginPageLoads" description="Verify login page loads correctly" finished-at="2026-06-18T17:17:47 PST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageLoads -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:47 PST" name="testSuccessfulLogin" description="Successful login with valid credentials" finished-at="2026-06-18T17:17:48 PST" duration-ms="1228" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Should redirect away from login page on success] 
+Expecting value to be true but was false]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Should redirect away from login page on success] 
+Expecting value to be true but was false
+at com.wms.tests.login.LoginTest.testSuccessfulLogin(LoginTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1516)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:47 PST" name="tearDown" finished-at="2026-06-18T17:17:47 PST" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testLoginPageLoads()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testLoginPageLoads status=SUCCESS method=LoginTest.testLoginPageLoads()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:47 PST" name="setUp" finished-at="2026-06-18T17:17:50 PST" duration-ms="2475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:48 PST" name="tearDown" finished-at="2026-06-18T17:17:49 PST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testSuccessfulLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=FAILURE method=LoginTest.testSuccessfulLogin()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:48 PST" name="tearDown" finished-at="2026-06-18T17:17:49 PST" duration-ms="869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:49 PST" name="setUp" finished-at="2026-06-18T17:17:51 PST" duration-ms="2053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLoginRedirect()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:50 PST" name="testSuccessfulLoginRedirect" description="Verify successful login redirect URL" finished-at="2026-06-18T17:17:51 PST" duration-ms="861" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Should redirect away from login on success] 
+Expecting value to be true but was false]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Should redirect away from login on success] 
+Expecting value to be true but was false
+at com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect(LoginTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1516)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLoginRedirect -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:51 PST" name="tearDown" finished-at="2026-06-18T17:17:51 PST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testSuccessfulLoginRedirect()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLoginRedirect status=FAILURE method=LoginTest.testSuccessfulLoginRedirect()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:51 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:52 PST" duration-ms="703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidCo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:52 PST" name="tearDown" finished-at="2026-06-18T17:17:52 PST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:52 PST" name="setUp" finished-at="2026-06-18T17:17:54 PST" duration-ms="1715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:54 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:54 PST" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validPass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Account Name cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:54 PST" name="tearDown" finished-at="2026-06-18T17:17:54 PST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:54 PST" name="setUp" finished-at="2026-06-18T17:17:56 PST" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:56 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:57 PST" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidCo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validPass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:57 PST" name="tearDown" finished-at="2026-06-18T17:17:57 PST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:57 PST" name="setUp" finished-at="2026-06-18T17:17:59 PST" duration-ms="1756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:59 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:17:59 PST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validPass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Account Name cannot be blank.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:59 PST" name="tearDown" finished-at="2026-06-18T17:17:59 PST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:17:59 PST" name="setUp" finished-at="2026-06-18T17:18:01 PST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:18:01 PST" name="testEmptyFieldsValidation" description="Failed login - empty fields validation" data-provider="invalidCredentials" finished-at="2026-06-18T17:18:02 PST" duration-ms="1101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BadCo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[badPass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:18:02 PST" name="tearDown" finished-at="2026-06-18T17:18:02 PST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wms.tests.login.LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFieldsValidation status=SUCCESS method=LoginTest.testEmptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.wms.tests.login.LoginTest@66a5755] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.wms.tests.login.LoginTest@66a5755]" started-at="2026-06-18T17:18:02 PST" name="afterSuite" finished-at="2026-06-18T17:18:02 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.wms.tests.login.LoginTest -->
+    </test> <!-- Login Module Tests -->
+  </suite> <!-- WMS Automation Suite -->
+</testng-results>

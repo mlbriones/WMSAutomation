@@ -1,0 +1,75 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "plan": {
+      "mode": "primary",
+      "model": "anthropic/claude-haiku-4-20250514",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      },
+      "prompt": "You are a senior QA architect and test automation lead. Create detailed test plans, user stories, acceptance criteria, framework architecture, and implementation roadmaps. Never generate code."
+    },
+
+    "build": {
+      "mode": "primary",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "prompt": "{file:./prompts/build.txt}"
+    },
+
+    "architect": {
+      "mode": "subagent",
+      "description": "Framework architecture reviewer",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": { "edit": "deny", "bash": "deny" },
+      "prompt": "Review Page Object Model, Base classes, scalability, maintainability, SOLID principles, and overall framework design."
+    },
+
+    "selenium-expert": {
+      "mode": "subagent",
+      "description": "Selenium + Java specialist",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": { "edit": "deny", "bash": "deny" },
+      "prompt": "Review Selenium 4 best practices, locator strategies, waits, parallel execution, driver management, and cross-browser compatibility."
+    },
+
+    "test-architect": {
+      "mode": "subagent",
+      "description": "TestNG + testing specialist",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": { "edit": "deny", "bash": "deny" },
+      "prompt": "Review TestNG configuration, test design, data-driven testing, reporting, and test maintainability."
+    },
+
+    "code-reviewer": {
+      "mode": "subagent",
+      "description": "General code quality reviewer",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": { "edit": "deny", "bash": "deny" },
+      "prompt": "Review code for cleanliness, Java best practices, error handling, logging, and duplication."
+    },
+
+    "qa-engineer": {
+      "mode": "subagent",
+      "description": "Testing and coverage specialist",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "permission": { "edit": "deny", "bash": "deny" },
+      "prompt": "Review test coverage, edge cases, assertions, and overall test quality."
+    }
+
+  },
+
+      "plugin": ["C:/Users/mlbriones/Documents/ponytail/.opencode/plugins/ponytail.mjs"]
+  
+}

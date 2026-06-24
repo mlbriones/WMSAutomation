@@ -1,0 +1,437 @@
+2026-06-18 17:12:45.253 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:12:45.266 [main] INFO  com.wms.tests.login.LoginTest - WMS Automation Test Suite
+2026-06-18 17:12:45.294 [main] INFO  com.wms.utils.ConfigReader - Loaded 12 properties from config.properties
+2026-06-18 17:12:45.295 [main] INFO  com.wms.tests.login.LoginTest - Browser: chrome
+2026-06-18 17:12:45.295 [main] INFO  com.wms.tests.login.LoginTest - URL: https://pg-wms.1gotech.com/index.php?r=site/login
+2026-06-18 17:12:45.296 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:12:45.419 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidPassword
+2026-06-18 17:12:45.419 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:12:45.419 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidUsername
+2026-06-18 17:12:45.424 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:12:45.424 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:12:45.424 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:03.936 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:04.004 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:04.053 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:13:04.339 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:04.398 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:04.456 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:13:04.757 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:04.797 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:04.830 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:13:05.040 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:05.138 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:05.212 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:06.099 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:13:06.109 [TestNG-test-Login Module Tests-3] ERROR com.wms.tests.login.LoginTest - Test FAILED: testInvalidUsername
+2026-06-18 17:13:06.110 [TestNG-test-Login Module Tests-2] ERROR com.wms.tests.login.LoginTest - Test FAILED: testInvalidPassword
+2026-06-18 17:13:06.572 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:06.576 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:06.577 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:06.932 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:06.944 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testLoginPageLoads
+2026-06-18 17:13:06.945 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:06.956 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:06.962 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLogin
+2026-06-18 17:13:06.963 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:11.935 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - Test PASSED: testLoginPageLoads
+2026-06-18 17:13:12.244 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:12.374 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:12.390 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:12.399 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLoginRedirect
+2026-06-18 17:13:12.400 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:12.683 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:13:12.735 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:13.180 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:13:13.439 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:13.831 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:13.924 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:13.975 [TestNG-test-Login Module Tests-3] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLogin
+2026-06-18 17:13:15.128 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:15.286 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:15.404 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:15.527 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:15.553 [TestNG-test-Login Module Tests-2] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLoginRedirect
+2026-06-18 17:13:15.670 [TestNG-test-Login Module Tests-1] ERROR com.wms.tests.login.LoginTest - Test FAILED: testEmptyFieldsValidation
+2026-06-18 17:13:15.937 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:18.541 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:18.620 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:18.625 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:18.626 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:30.305 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:30.412 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:30.510 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:13:30.635 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:30.700 [TestNG-test-Login Module Tests-1] ERROR com.wms.tests.login.LoginTest - Test FAILED: testEmptyFieldsValidation
+2026-06-18 17:13:31.023 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:31.026 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:31.026 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:34.508 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:13:34.622 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:34.732 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:34.832 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:34.900 [TestNG-test-Login Module Tests-1] ERROR com.wms.tests.login.LoginTest - Test FAILED: testEmptyFieldsValidation
+2026-06-18 17:13:35.190 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:35.194 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:35.194 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:37.373 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:37.460 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:13:37.612 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:37.733 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:37.808 [TestNG-test-Login Module Tests-1] ERROR com.wms.tests.login.LoginTest - Test FAILED: testEmptyFieldsValidation
+2026-06-18 17:13:38.099 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:38.103 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:38.103 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:42.723 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:13:42.866 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:13:43.008 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:43.107 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:43.182 [TestNG-test-Login Module Tests-1] ERROR com.wms.tests.login.LoginTest - Test FAILED: testEmptyFieldsValidation
+2026-06-18 17:13:43.481 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:43.485 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:13:43.485 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:13:46.102 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:13:46.200 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:13:46.323 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:13:46.461 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:13:46.490 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:13:46.699 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:13:46.766 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:13:46.766 [main] INFO  com.wms.tests.login.LoginTest - Test Suite Completed
+2026-06-18 17:13:46.767 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:15:17.919 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:15:17.929 [main] INFO  com.wms.tests.login.LoginTest - WMS Automation Test Suite
+2026-06-18 17:15:17.957 [main] INFO  com.wms.utils.ConfigReader - Loaded 12 properties from config.properties
+2026-06-18 17:15:17.957 [main] INFO  com.wms.tests.login.LoginTest - Browser: chrome
+2026-06-18 17:15:17.958 [main] INFO  com.wms.tests.login.LoginTest - URL: https://pg-wms.1gotech.com/index.php?r=site/login
+2026-06-18 17:15:17.958 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:15:18.093 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidUsername
+2026-06-18 17:15:18.093 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidPassword
+2026-06-18 17:15:18.094 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:18.101 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:18.101 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:18.101 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:26.176 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:26.251 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:15:26.331 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:26.807 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:26.837 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:15:26.873 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:28.751 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:28.840 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:15:28.930 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:29.298 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:29.425 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:32.154 [TestNG-test-Login Module Tests-2] ERROR com.wms.tests.login.LoginTest - Test FAILED: testInvalidPassword
+2026-06-18 17:15:32.578 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:32.581 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - Test PASSED: testInvalidUsername
+2026-06-18 17:15:33.071 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:33.079 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testLoginPageLoads
+2026-06-18 17:15:33.080 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:33.101 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:33.107 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLogin
+2026-06-18 17:15:33.108 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:33.305 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:33.310 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:33.310 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:36.439 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - Test PASSED: testLoginPageLoads
+2026-06-18 17:15:36.732 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:36.743 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:36.751 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLoginRedirect
+2026-06-18 17:15:36.752 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:36.959 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:37.288 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:37.840 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:15:38.039 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:38.240 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:15:38.404 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:38.479 [TestNG-test-Login Module Tests-3] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLogin
+2026-06-18 17:15:38.571 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:38.614 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:38.847 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:38.850 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:38.851 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:42.510 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:42.701 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:42.815 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:15:42.924 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:42.995 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:43.265 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:43.270 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:43.271 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:45.598 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:15:45.759 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:45.885 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:46.009 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:46.080 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:46.601 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:46.607 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:46.607 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:46.773 [TestNG-test-Login Module Tests-2] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLoginRedirect
+2026-06-18 17:15:46.775 [TestNG-test-Login Module Tests-2] ERROR com.wms.utils.ScreenshotUtil - Failed to capture screenshot bytes
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MLBRIO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64853}, goog:processID: 12124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64853/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.27.0.jar:?]
+	at com.wms.utils.ScreenshotUtil.takeScreenshot(ScreenshotUtil.java:37) [classes/:?]
+	at com.wms.base.BaseTest.captureScreenshot(BaseTest.java:74) [test-classes/:?]
+	at com.wms.base.BaseTest.tearDown(BaseTest.java:53) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) [?:?]
+2026-06-18 17:15:47.447 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:48.912 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:49.606 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:49.691 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:15:49.808 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:49.971 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:50.017 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:50.314 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:50.319 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:50.319 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:53.363 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:15:53.472 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:15:53.593 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:53.705 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:53.747 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:53.964 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:53.967 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:15:53.967 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:15:58.451 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:15:58.595 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:15:58.702 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:15:58.808 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in']
+2026-06-18 17:15:58.872 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:15:59.071 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:15:59.137 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:15:59.138 [main] INFO  com.wms.tests.login.LoginTest - Test Suite Completed
+2026-06-18 17:15:59.138 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:17:34.672 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:17:34.681 [main] INFO  com.wms.tests.login.LoginTest - WMS Automation Test Suite
+2026-06-18 17:17:34.702 [main] INFO  com.wms.utils.ConfigReader - Loaded 12 properties from config.properties
+2026-06-18 17:17:34.703 [main] INFO  com.wms.tests.login.LoginTest - Browser: chrome
+2026-06-18 17:17:34.704 [main] INFO  com.wms.tests.login.LoginTest - URL: https://pg-wms.1gotech.com/index.php?r=site/login
+2026-06-18 17:17:34.704 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:17:34.814 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidPassword
+2026-06-18 17:17:34.814 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:34.814 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidUsername
+2026-06-18 17:17:34.817 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:34.817 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:34.817 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:42.642 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:17:42.746 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:42.747 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:42.915 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:17:42.979 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:43.014 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:43.100 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:17:43.181 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:43.210 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:43.375 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:43.403 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:43.445 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:43.970 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - Test PASSED: testInvalidUsername
+2026-06-18 17:17:43.970 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:43.970 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - Test PASSED: testInvalidPassword
+2026-06-18 17:17:44.411 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:44.411 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:44.416 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:44.416 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:44.417 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testLoginPageLoads
+2026-06-18 17:17:44.417 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:44.553 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:44.560 [TestNG-test-Login Module Tests-2] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLogin
+2026-06-18 17:17:44.561 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:47.399 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - Test PASSED: testLoginPageLoads
+2026-06-18 17:17:47.671 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:47.679 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:47.955 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:47.963 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:47.964 [TestNG-test-Login Module Tests-3] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLoginRedirect
+2026-06-18 17:17:47.965 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:47.984 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:17:48.188 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:17:48.203 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:48.447 [TestNG-test-Login Module Tests-2] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:48.465 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:48.531 [TestNG-test-Login Module Tests-2] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLogin
+2026-06-18 17:17:48.539 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:49.405 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:49.410 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:49.411 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:49.712 [TestNG-test-Login Module Tests-2] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:50.780 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:50.924 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:51.113 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:51.285 [TestNG-test-Login Module Tests-3] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:51.310 [TestNG-test-Login Module Tests-3] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLoginRedirect
+2026-06-18 17:17:51.710 [TestNG-test-Login Module Tests-3] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:51.745 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:51.886 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:51.997 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-18 17:17:52.128 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:52.172 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:52.406 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:52.411 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:52.411 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:54.278 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:17:54.416 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:17:54.529 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:54.638 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:54.672 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:54.867 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:54.870 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:54.870 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:56.708 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:17:56.821 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:17:56.947 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:57.055 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:57.109 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:57.349 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:57.354 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:57.355 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:17:59.263 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-18 17:17:59.377 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-18 17:17:59.551 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:17:59.683 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:17:59.716 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:17:59.941 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:17:59.945 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-18 17:17:59.945 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-18 17:18:01.789 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-18 17:18:01.893 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-18 17:18:02.034 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-18 17:18:02.157 [TestNG-test-Login Module Tests-1] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-18 17:18:02.190 [TestNG-test-Login Module Tests-1] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-18 17:18:02.446 [TestNG-test-Login Module Tests-1] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-18 17:18:02.501 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-18 17:18:02.501 [main] INFO  com.wms.tests.login.LoginTest - Test Suite Completed
+2026-06-18 17:18:02.501 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-24 11:32:31.587 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-24 11:32:31.592 [main] INFO  com.wms.tests.login.LoginTest - WMS Automation Test Suite
+2026-06-24 11:32:31.656 [main] INFO  com.wms.utils.ConfigReader - Loaded 12 properties from config.properties
+2026-06-24 11:32:31.656 [main] INFO  com.wms.tests.login.LoginTest - Browser: chrome
+2026-06-24 11:32:31.657 [main] INFO  com.wms.tests.login.LoginTest - URL: https://pg-wms.1gotech.com/index.php?r=site/login
+2026-06-24 11:32:31.658 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-24 11:32:31.730 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:31.762 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:39.091 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-24 11:32:39.204 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-24 11:32:39.359 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-24 11:32:39.496 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:39.642 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:39.955 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:39.959 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:39.959 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:41.919 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:32:42.029 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-24 11:32:42.126 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-24 11:32:42.220 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:42.253 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:42.538 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:42.543 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:42.544 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:44.700 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:32:44.834 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:32:44.974 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_password
+2026-06-24 11:32:45.116 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:45.165 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:45.456 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:45.461 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:45.461 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:47.363 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-24 11:32:47.486 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:32:47.588 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:32:47.678 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:47.709 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:47.953 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:47.957 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:47.957 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:49.939 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:32:50.036 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-24 11:32:50.140 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:32:50.245 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:50.287 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:50.566 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:50.571 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:50.572 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:52.492 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_company
+2026-06-24 11:32:52.597 [main] INFO  com.wms.pages.login.LoginPage - Typed '' into By.id: LoginForm_username
+2026-06-24 11:32:52.713 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:32:52.801 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:52.862 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:53.109 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:53.112 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testEmptyFieldsValidation
+2026-06-24 11:32:53.113 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:55.115 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:32:55.220 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:32:55.322 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:32:55.420 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:55.453 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testEmptyFieldsValidation
+2026-06-24 11:32:55.672 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:55.677 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidPassword
+2026-06-24 11:32:55.677 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:32:57.699 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:32:57.805 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:32:57.913 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:32:58.005 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:32:58.036 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testInvalidPassword
+2026-06-24 11:32:58.268 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:32:58.273 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testInvalidUsername
+2026-06-24 11:32:58.274 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:33:00.140 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:33:00.267 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:33:00.371 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:33:00.481 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:33:00.518 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testInvalidUsername
+2026-06-24 11:33:00.783 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:33:00.790 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testLoginPageLoads
+2026-06-24 11:33:00.791 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:33:03.417 [main] INFO  com.wms.tests.login.LoginTest - Test PASSED: testLoginPageLoads
+2026-06-24 11:33:03.674 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:33:03.679 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLogin
+2026-06-24 11:33:03.680 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:33:05.854 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:33:06.040 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:33:06.168 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:33:06.279 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:33:06.328 [main] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLogin
+2026-06-24 11:33:06.795 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:33:06.802 [main] INFO  com.wms.tests.login.LoginTest - --- Starting test: testSuccessfulLoginRedirect
+2026-06-24 11:33:06.802 [main] INFO  com.wms.utils.WebDriverFactory - Creating chrome WebDriver (headless: false)
+2026-06-24 11:33:08.844 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_company
+2026-06-24 11:33:08.944 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_username
+2026-06-24 11:33:09.044 [main] INFO  com.wms.pages.login.LoginPage - Typed '******' into By.id: LoginForm_password
+2026-06-24 11:33:09.131 [main] INFO  com.wms.pages.login.LoginPage - Clicked By.cssSelector: input[value='Sign me in'] (attempt 1)
+2026-06-24 11:33:09.149 [main] ERROR com.wms.tests.login.LoginTest - Test FAILED: testSuccessfulLoginRedirect
+2026-06-24 11:33:09.613 [main] INFO  com.wms.utils.WebDriverFactory - WebDriver quit successfully
+2026-06-24 11:33:09.627 [main] INFO  com.wms.tests.login.LoginTest - ========================================
+2026-06-24 11:33:09.627 [main] INFO  com.wms.tests.login.LoginTest - Test Suite Completed
+2026-06-24 11:33:09.627 [main] INFO  com.wms.tests.login.LoginTest - ========================================
